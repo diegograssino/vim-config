@@ -4,9 +4,6 @@
 " Avoid git bash term flickering
 set t_vb=
 
-" Disable compatibility with vi which can cause unexpected issues.
-set nocompatible
-
 " Enable type file detection. Vim will be able to try to detect the type of file is use.
 filetype on
 
@@ -76,6 +73,7 @@ set history=1000
 
 " Enable auto completion menu after pressing TAB.
 set wildmenu
+set wildoptions="pum"
 
 " Make wildmenu behave like similar to Bash completion.
 set wildmode=list:longest
