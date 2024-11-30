@@ -167,6 +167,9 @@ call plug#begin()
   Plug 'tpope/vim-fugitive'
   Plug 'ryanoasis/vim-devicons'
   Plug 'wincent/terminus'
+  Plug 'sheerun/vim-polyglot'
+  Plug 'alvan/vim-closetag'
+  Plug 'sbdchd/neoformat'
 
 call plug#end()
 " }}}
