@@ -171,6 +171,7 @@ call plug#begin()
     Plug 'sbdchd/neoformat'
     Plug 'kien/ctrlp.vim'
     Plug 'preservim/nerdcommenter'    
+    Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 " }}}
