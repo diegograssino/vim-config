@@ -4,6 +4,7 @@ let mapleader = ' '
 " Reload vimrc and install plugins
 nnoremap <leader>so :source ~/.vimrc <CR>
 nnoremap <leader>pi :PlugInstall <CR>
+nnoremap <leader>pc :PlugClean <CR>
 nnoremap <leader>w :w <CR>
 nnoremap <leader>q :q <CR>
 

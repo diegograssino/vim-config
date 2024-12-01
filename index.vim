@@ -159,17 +159,17 @@ endif
 " -------  {{{
 call plug#begin()
 
-  Plug 'preservim/nerdtree'
-  Plug 'tpope/vim-sensible'
-  Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-  Plug 'vim-airline/vim-airline' 
-  Plug 'vim-airline/vim-airline-themes' 
-  Plug 'tpope/vim-fugitive'
-  Plug 'ryanoasis/vim-devicons'
-  Plug 'wincent/terminus'
-  Plug 'sheerun/vim-polyglot'
-  Plug 'alvan/vim-closetag'
-  Plug 'sbdchd/neoformat'
+    Plug 'preservim/nerdtree'
+    Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+    Plug 'vim-airline/vim-airline' 
+    Plug 'vim-airline/vim-airline-themes' 
+    Plug 'tpope/vim-fugitive'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'wincent/terminus'
+    Plug 'sheerun/vim-polyglot'
+    Plug 'alvan/vim-closetag'
+    Plug 'sbdchd/neoformat'
+    Plug 'kien/ctrlp.vim'
 
 call plug#end()
 " }}}
