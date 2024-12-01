@@ -172,6 +172,7 @@ call plug#begin()
     Plug 'kien/ctrlp.vim'
     Plug 'preservim/nerdcommenter'    
     Plug 'airblade/vim-gitgutter'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
 
 call plug#end()
 " }}}
