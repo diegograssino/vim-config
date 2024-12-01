@@ -170,6 +170,7 @@ call plug#begin()
     Plug 'alvan/vim-closetag'
     Plug 'sbdchd/neoformat'
     Plug 'kien/ctrlp.vim'
+    Plug 'preservim/nerdcommenter'    
 
 call plug#end()
 " }}}
