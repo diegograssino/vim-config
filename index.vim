@@ -161,19 +161,23 @@ call plug#begin()
 
     Plug 'preservim/nerdtree'
     Plug 'catppuccin/vim', { 'as': 'catppuccin' }
-    Plug 'vim-airline/vim-airline' 
-    Plug 'vim-airline/vim-airline-themes' 
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
     Plug 'tpope/vim-fugitive'
     Plug 'ryanoasis/vim-devicons'
     Plug 'wincent/terminus'
     Plug 'sheerun/vim-polyglot'
     Plug 'alvan/vim-closetag'
-    Plug 'sbdchd/neoformat'
+    "Plug 'sbdchd/neoformat'
     Plug 'kien/ctrlp.vim'
-    Plug 'preservim/nerdcommenter'    
+    Plug 'preservim/nerdcommenter'
     Plug 'airblade/vim-gitgutter'
     Plug 'Xuyuanp/nerdtree-git-plugin'
-    Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" TODO Fix coc-tsserver installation
+   Plug 'neoclide/coc.nvim', {'branch': 'release'}
+   Plug 'neoclide/coc-tsserver', {'do': 'npm install --frozen-lockfile'}
+    Plug 'pacha/vem-tabline'
+    Plug 'dense-analysis/ale'
 
 call plug#end()
 
