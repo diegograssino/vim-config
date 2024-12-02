@@ -173,6 +173,8 @@ call plug#begin()
     Plug 'preservim/nerdcommenter'    
     Plug 'airblade/vim-gitgutter'
     Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
+
 " }}}
